@@ -1,7 +1,11 @@
 let i=0 //counter
+//array of subjects as elements
 let courses = ["Business","Maths","Database","Science"];
 let len = courses.length;//call the total number of elements in an array
 let develops = "" //just the space at the begininning
+
+
+
 
 for (; i< len;){
 develops += courses[i] + '\n'
