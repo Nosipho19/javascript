@@ -1,8 +1,8 @@
 export class vehicle{
-constructor (make, name, engine){
+constructor (make, name, model){
 this.make = make;
 this.name = name;
-this.engine = engine;
+this.model = model;
 
 };
 
@@ -12,10 +12,12 @@ get getName(){
 
 }
 
-let bike = new vehicle("boat", "volvo", "12345c");
-let bar = new vehicle ("polo", "bmw", "jaguar");
-let bus = new vehicle ("honda", "benze", "isuzu")
+let bike = new vehicle("volvo cars", "volvo", "12345c");
+let bus = new vehicle ("Motors", "BMW", "X5");
+let truck = new vehicle ("Premium", "Mercendes", "C63")
 
 
 console.log(`${bike.name}`)
 console.log(`${bike.getName}`) 
+console.log(`${bus.getName}`)
+console.log(`${bus.model}`)
