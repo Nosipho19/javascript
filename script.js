@@ -10,7 +10,7 @@ data.forEach(item => {
     <br><strong>Email:</strong> ${item.email}`
     console.log(itemlist)
     dataList.appendChild(itemlist)
-    console.log(itemlist)
+    console.log(itemlist) 
     
 });
 })
